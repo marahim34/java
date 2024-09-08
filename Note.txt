@@ -27,3 +27,70 @@ System.out.println("Print\n");
 - Single Line Comments: Single-line comments start with two forward slashes (//).
 - Multi Line Comments: Multi-line comments start with /* and ends with */.
 
+##Escape Sequence
+\b      backspace
+\t      tab
+\n      newline
+\r      carriage return
+\"      double quote
+\'      single quote
+\\      backslash
+
+
+# Naming convention
+Class: Class name should be nouns in mixed case with the first letter of each internal word capitalize; class MyFirstApp;
+Method: Methods should be verbs, in mixed case with the first letter lowercase, with the first letter of each internal word capitalized. e.g: run();
+runFast(); getBackground();
+variable: Except for variables, all instance, class, and class constants are in mixed case with a lowercase first letter. Internal words start with capital letters. Variable names should not start with underscore _ or dollar sign $ characters, even though both are allowed.
+
+
+# Variable and Data Type - 1
+Variable is where we store something;
+e.g x = 5;
+
+- You can use letters (A...Z, a...z), digits (0...9), underscore (_), and dollar sign ($).
+- However, variable names can start with an underscore (_) or a dollar sign ($), although it is not recommended to do so, except in specific situations (like generated code or constants). 
+- Variables cannot start with a digit (0-9), but they can contain digits as long as they are not the first character.
+- You cannot use Java keywords or reserved words as variable names. For example, you can't name a variable int, class, if, etc.
+- While technically it's possible to name a variable the same as an existing method (e.g., main), it’s a bad practice because it can lead to confusion. Java allows it, but avoid reusing method names for variables to maintain code readability.
+- No spaces are allowed between characters in variable names
+- Java allows variable names of any length
+- Use descriptive yet concise names. 
+
+Data types in JavaData types specify the different sizes and values that can be stored in the variable. There are two types of data types in Java:
+Primitive data types: The primitive data types include boolean, char, byte, short, int, long, float and double.
+Eight types:
+1. boolean data type
+2. byte data type
+3. char data type
+4. short data type
+5. int data type
+6. long data type
+7. float data type
+8. double data type
+
+
+Type	Size	    Description	                                    Example Values
+byte	1 byte	    Stores whole numbers from -128 to 127	        byte b = 100;
+short	2 bytes	    Stores whole numbers from -32,768 to 32,767	    short s = 5000;
+int	    4 bytes	    Stores whole numbers from -2^31 to 2^31-1	    int i = 100000;
+long	8 bytes	    Stores whole numbers from -2^63 to 2^63-1	    long l = 150000L;
+float	4 bytes	    Stores fractional numbers, single precision	    float f = 5.75f;
+double	8 bytes	    Stores fractional numbers, double precision	    double d = 19.99;
+char	2 bytes	    Stores a single character/letter	            char c = 'A';
+boolean	1 bit	    Stores true or false values	                    boolean b = true;
+
+Non-primitive data types: The non-primitive data types include Classes, Interfaces, and Arrays.
+
+
+Type	    Description	                                        Example
+String	    Stores sequences of characters (text)	            String s = "Hello";
+Arrays	    Stores multiple values of the same type	            int[] arr = {1, 2, 3};
+Classes	    User-defined types that can hold data and methods	MyClass obj = new MyClass();
+Interfaces	Defines a contract that classes can implement	    Runnable r = new MyRunnable();
+
+
+
+
+
+ 
